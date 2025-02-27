@@ -16,8 +16,8 @@
  * 
  */
  
- #define GPIO_OUTPUT  23
- #define GPIO_INPUT   22
+ #define GPIO_OUTPUT  (571+23)
+ #define GPIO_INPUT   (571+22)
 
 static int interrupt_count = 0;
 
