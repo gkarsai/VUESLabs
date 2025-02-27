@@ -19,8 +19,8 @@
  *
  */
 
-#define PWM_OUTPUT_CHIP 0
-#define PWM_CHIP_OUTPUT 0
+#define PWM_OUTPUT_CHIP 2
+#define PWM_CHIP_OUTPUT 2
 
 /* Servo values for TG9 servos: */
 /* Servo 0 degree angle pulse high time in msec */
