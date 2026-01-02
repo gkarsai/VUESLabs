@@ -15,9 +15,12 @@
  * all you need to do is ensure that the two pins are connected together
  * 
  */
- 
- #define GPIO_OUTPUT  (571+23)
- #define GPIO_INPUT   (571+22)
+
+/* Default GPIO Base 512. For RPi5 it should be 571 */
+#define GPIO_BASE    512 
+
+#define GPIO_OUTPUT  (GPIO_BASE+23)
+#define GPIO_INPUT   (GPIO_BASE+22)
 
 static int interrupt_count = 0;
 
